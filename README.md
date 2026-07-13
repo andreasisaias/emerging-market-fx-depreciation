@@ -9,5 +9,5 @@ Data was pulled directly from the World Bank database for: foreign exchange rate
 
 In the process of cleaning the data, forward-filling was used in order to fill intermittent gaps in the data. Backward-filling was avoided in order to prevent look-ahead bias, which could impact the integrity of the dataset.
 
-Initially, the sample included 19 countries, but data was unavailable for at least one key macroeconomic indicator in 5 of the countries in the sample (Czechia, Nigeria, Poland, Turkiye, Vietnam), so these countries had to be dropped, leaving the final sample with 14 countries. In the future, alternative sources of data collection would be considered in order to obtain this data (e.g. FRED, IMF, OECD), in order to include these dropped countries and strengthen the generalisability of the model.
+Initially, the sample included 19 countries, but data was unavailable for at least one key macroeconomic indicator in 5 of the countries in the sample (Czechia, Nigeria, Poland, Turkiye, Vietnam), so these countries had to be dropped, leaving the final sample with 14 countries. In the future, alternative sources of data collection would be considered in order to obtain this data (e.g. FRED, IMF, OECD), so that these dropped countries can be included and strengthen the generalisability of the model.
 
